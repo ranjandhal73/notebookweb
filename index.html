@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.7/axios.min.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main">
+            <h1>NoteBook</h1>
+            <label for="search-notes">Search Notes:</label>
+            <input type="text" id="search-notes">
+            <p id='total-notes'></p>
+            <p id="showing"></p>
+        </div>
+        
+        <form action="">
+            <label for="title">Note Title:</label>
+            <input type="text" id="title"><br>
+
+            <label for="desc">Note Desc:</label><br>
+            <textarea name="desc" id="" cols="13" rows="2" id="desc"></textarea><br>
+
+            <button type="submit">Add to Book</button>
+        </form>
+        <ul id="note-list">
+            
+        </ul>
+    </div>
+
+    
+    <script src="index.js"></script>
+</body>
+</html>
